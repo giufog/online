@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="NOLA Bag – risultati acquistabili dall'Italia">
+<meta property="og:description" content="Selezione mobile di NOLA Bag con prezzi, negozi e varianti colore acquistabili dall'Italia.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ucon-acrobatics.com/cdn/shop/files/UA_Nola-Bag_Lotus-Series_Dark-Navy_01.jpg?v=1713355932&width=1200">
+<meta name="twitter:card" content="summary_large_image">
+<title>NOLA Bag – Italia</title>
+<style>
+:root {
+  --bg:#06101d; --panel:#0c1a2a; --card:#11253b; --line:#22384f;
+  --text:#eef4fb; --muted:#a9b8c8; --blue:#4fb3ff; --green:#72f0b4;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+body{padding:12px}
+.top{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,var(--bg) 70%, rgba(6,16,29,0));padding-bottom:10px}
+.bar{display:flex;gap:10px;align-items:center;justify-content:space-between}
+.toggle,.sortbtn{border:1px solid var(--line);background:#13253d;color:#fff;border-radius:999px;padding:10px 14px;font-weight:700;font-size:14px;cursor:pointer}
+.panel{display:none;margin-top:10px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.panel.open{display:block}
+h1{margin:0 0 8px;font-size:28px;line-height:1.05}
+p{margin:8px 0;color:var(--muted);line-height:1.4}
+.summary{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px}
+.box{border:1px solid var(--line);background:#0a1422;border-radius:14px;padding:12px 14px}
+.box strong{display:block;color:#fff;margin-bottom:4px}
+.note{font-size:12px;color:var(--muted);margin:8px 2px 14px}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+.card{border:1px solid var(--line);background:var(--card);border-radius:18px;overflow:hidden;box-shadow:0 10px 26px rgba(0,0,0,.20)}
+.content{padding:14px;display:grid;gap:9px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.store{color:var(--blue);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.badge{font-size:11px;font-weight:800;padding:5px 8px;border-radius:999px;background:#0b1626;border:1px solid #2a4662}
+.title{font-size:18px;line-height:1.28}
+.price{font-size:24px;font-weight:800;color:var(--green)}
+.kind{display:inline-block;width:fit-content;font-size:12px;border:1px solid #2a4662;border-radius:999px;padding:6px 10px;background:#0b1626}
+.ship,.status{font-size:13px;color:#d6e1ec}
+.status.ok::before{content:"● ";color:#56d67f}
+.swatches{display:flex;gap:6px;flex-wrap:wrap}
+.swatch{width:16px;height:16px;border-radius:999px;border:1px solid rgba(255,255,255,.45);display:inline-block}
+.btn{display:block;text-align:center;text-decoration:none;color:#fff;font-weight:800;background:#1570c9;padding:12px 14px;border-radius:12px;margin-top:2px}
+.sharebox{position:sticky;bottom:10px;z-index:25;display:flex;justify-content:center;margin:16px 0}
+.sharebtn{
+  display:inline-flex;align-items:center;gap:10px;
+  border:1px solid #1f6f46;background:#25D366;color:#fff;
+  border-radius:999px;padding:12px 18px;font-weight:800;font-size:15px;
+  text-decoration:none;box-shadow:0 10px 24px rgba(0,0,0,.24)
+}
+.sharebtn small{display:block;font-size:11px;font-weight:600;opacity:.92}
+.sharehint{font-size:12px;color:var(--muted);text-align:center;margin-top:8px}
+.bottomshare{margin:18px 0 4px;text-align:center}
+footer{padding:18px 6px 8px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="bar">
+    <button class="toggle" id="toggleInfo">Apri riepilogo</button>
+    <button class="sortbtn" id="sortBtn">Ordina: prezzo</button>
+  </div>
+  <section class="panel" id="infoPanel">
+    <h1>NOLA Bag acquistabile dall'Italia</h1>
+    <p>Qui dentro ho lasciato solo proposte trovate su siti italiani oppure su siti UE che mostrano spedizione verso l'Italia.</p>
+    <div class="summary">
+      <div class="box"><strong>Risultati</strong>16</div>
+      <div class="box"><strong>Prezzo più basso affidabile</strong>€40,59</div>
+      <div class="box"><strong>Match esatti Dark Navy</strong>4</div>
+      <div class="box"><strong>Varianti colore</strong>Light Sand, Fog Blue, Red, Olive, Dusty Lilac, Amber, Redwood, Blue</div>
+    </div>
+  </section>
+</div>
+
+<div class="sharebox">
+  <a class="sharebtn" href="#" id="waShareBtnTop" aria-label="Condividi su WhatsApp">
+    <span style="font-size:20px;line-height:1">🟢</span>
+    <span>Condividi su WhatsApp<br><small>link alla pagina</small></span>
+  </a>
+</div>
+
+<div class="note">I pallini colorati mostrano le varianti che risultano presenti nello stesso sito. L'anteprima professionale di WhatsApp con immagine e titolo funziona solo se questa pagina viene pubblicata su un link web pubblico https.</div>
+
+<main class="grid" id="grid">
+
+<article class="card" data-price="40.59"><div class="content"><div class="row"><div class="store">GiftCompany.it</div><div class="badge">Italia</div></div><div class="title">NOLA BAG LOTUS, Dark Navy</div><div class="price">€40,59</div><div class="kind">match esatto</div><div class="status ok">In magazzino / Aggiungi al carrello</div><div class="ship">Negozio italiano</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#0f766e"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#2563eb"></span><span class="swatch" style="background:#d8c3a5"></span><span class="swatch" style="background:#d97706"></span><span class="swatch" style="background:#b7a1c7"></span></div><a class="btn" href="https://www.giftcompany.it/home/19376-nolabaglotusdarknavy.html" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="45.00"><div class="content"><div class="row"><div class="store">LiveDesign.it</div><div class="badge">Italia</div></div><div class="title">NOLA BAG LOTUS DARK NAVY</div><div class="price">€45,00</div><div class="kind">match esatto</div><div class="status ok">Aggiungi al carrello</div><div class="ship">Negozio italiano</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span></div><a class="btn" href="https://www.livedesign.it/categoria/borse-e-zaini-da-viaggio/" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="49.99"><div class="content"><div class="row"><div class="store">Ucon Acrobatics IT</div><div class="badge">UE</div></div><div class="title">Nola Bag • Lotus Series (Dark Navy)</div><div class="price">€49,99</div><div class="kind">match esatto</div><div class="status ok">Ready to ship</div><div class="ship">UE / spedizione gratuita sopra €150</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#166534"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#d97706"></span></div><a class="btn" href="https://ucon-acrobatics.com/it-it/products/nola-bag-lotus-dark-navy" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="59.00"><div class="content"><div class="row"><div class="store">Prime-Timers</div><div class="badge">Italia</div></div><div class="title">UCON ACROBATICS Nola Lotus Dark Navy</div><div class="price">€59,00</div><div class="kind">match esatto</div><div class="status ok">In stock</div><div class="ship">Spedisce in Italia; €15,50 sotto €250</div><div class="swatches"><span class="swatch" style="background:#111111"></span><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#d8c3a5"></span><span class="swatch" style="background:#8b3a3a"></span></div><a class="btn" href="https://prime-timers.com/product/ucon-acrobatics-nola-lotus-dark-navy/" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="40.59"><div class="content"><div class="row"><div class="store">GiftCompany.it</div><div class="badge">Italia</div></div><div class="title">NOLA BAG LOTUS, Light Sand</div><div class="price">€40,59</div><div class="kind">colore diverso</div><div class="status ok">In magazzino / Aggiungi al carrello</div><div class="ship">Negozio italiano</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#0f766e"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#2563eb"></span><span class="swatch" style="background:#d8c3a5"></span><span class="swatch" style="background:#d97706"></span><span class="swatch" style="background:#b7a1c7"></span></div><a class="btn" href="https://www.giftcompany.it/borse-shopping/19057-nolabaglotuslightsand.html" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="40.59"><div class="content"><div class="row"><div class="store">GiftCompany.it</div><div class="badge">Italia</div></div><div class="title">NOLA BAG LOTUS, Fog Blue</div><div class="price">€40,59</div><div class="kind">colore diverso</div><div class="status ok">In magazzino / Aggiungi al carrello</div><div class="ship">Negozio italiano</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#0f766e"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#2563eb"></span><span class="swatch" style="background:#d8c3a5"></span><span class="swatch" style="background:#d97706"></span><span class="swatch" style="background:#b7a1c7"></span></div><a class="btn" href="https://www.giftcompany.it/borse-shopping/19058-nolabaglotusfogblue.html" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="40.59"><div class="content"><div class="row"><div class="store">GiftCompany.it</div><div class="badge">Italia</div></div><div class="title">NOLA BAG LOTUS, Red</div><div class="price">€40,59</div><div class="kind">colore diverso</div><div class="status ok">In magazzino / Aggiungi al carrello</div><div class="ship">Negozio italiano</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#0f766e"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#2563eb"></span><span class="swatch" style="background:#d8c3a5"></span><span class="swatch" style="background:#d97706"></span><span class="swatch" style="background:#b7a1c7"></span></div><a class="btn" href="https://www.giftcompany.it/home/19319-nolabaglotusred.html" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="47.92"><div class="content"><div class="row"><div class="store">Myho.it</div><div class="badge">Italia</div></div><div class="title">Ucon Acrobatics Borsa Nola Lotus Light Sand</div><div class="price">€47,92</div><div class="kind">colore diverso</div><div class="status ok">Disponibile</div><div class="ship">Negozio italiano / spedizione 72 h</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#d97706"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#7db5d8"></span></div><a class="btn" href="https://www.myho.it/prodotto/ucon-acrobatics-borsa-nola-lotus-light-sand.html" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="49.99"><div class="content"><div class="row"><div class="store">Ucon Acrobatics IT</div><div class="badge">UE</div></div><div class="title">Nola Bag • Lotus Series (Olive)</div><div class="price">€49,99</div><div class="kind">colore diverso</div><div class="status ok">Ready to ship</div><div class="ship">UE / spedizione gratuita sopra €150</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#166534"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#d97706"></span></div><a class="btn" href="https://ucon-acrobatics.com/products/nola-bag-lotus-olive" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="49.99"><div class="content"><div class="row"><div class="store">Ucon Acrobatics IT</div><div class="badge">UE</div></div><div class="title">Nola Bag • Lotus Series (Light Sand)</div><div class="price">€49,99</div><div class="kind">colore diverso</div><div class="status ok">Ready to ship</div><div class="ship">UE / spedizione gratuita sopra €150</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#166534"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#d97706"></span></div><a class="btn" href="https://ucon-acrobatics.com/it-it/products/nola-bag-lotus-light-sand" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="49.99"><div class="content"><div class="row"><div class="store">Ucon Acrobatics IT</div><div class="badge">UE</div></div><div class="title">Nola Bag • Lotus Series (Redwood)</div><div class="price">€49,99</div><div class="kind">colore diverso</div><div class="status ok">Ready to ship</div><div class="ship">UE / spedizione gratuita sopra €150</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#166534"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#d97706"></span></div><a class="btn" href="https://ucon-acrobatics.com/it-it/products/nola-bag-lotus-redwood" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="49.99"><div class="content"><div class="row"><div class="store">Ucon Acrobatics IT</div><div class="badge">UE</div></div><div class="title">Nola Bag • Lotus Series (Amber)</div><div class="price">€49,99</div><div class="kind">colore diverso</div><div class="status ok">Ready to ship</div><div class="ship">UE / spedizione gratuita sopra €150</div><div class="swatches"><span class="swatch" style="background:#1e3a8a"></span><span class="swatch" style="background:#7db5d8"></span><span class="swatch" style="background:#d6c29c"></span><span class="swatch" style="background:#c81e1e"></span><span class="swatch" style="background:#556b2f"></span><span class="swatch" style="background:#166534"></span><span class="swatch" style="background:#8b3a3a"></span><span class="swatch" style="background:#d97706"></span></div><a class="btn" href="https://ucon-acrobatics.com/it-it/products/nola-bag-lotus-amber" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="55.00"><div class="content"><div class="row"><div class="store">Spartoo.it</div><div class="badge">Italia</div></div><div class="title">Ucon Acrobatics Nola Bag Blue</div><div class="price">€55,00</div><div class="kind">colore diverso</div><div class="status ok">Numeri disponibili</div><div class="ship">Consegna gratuita in 3 giorni</div><div class="swatches"><span class="swatch" style="background:#2563eb"></span><span class="swatch" style="background:#c81e1e"></span></div><a class="btn" href="https://www.spartoo.it/Ucon-Acrobatics-b43754.php" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+<article class="card" data-price="55.00"><div class="content"><div class="row"><div class="store">Spartoo.it</div><div class="badge">Italia</div></div><div class="title">Ucon Acrobatics Nola Bag Red</div><div class="price">€55,00</div><div class="kind">colore diverso</div><div class="status ok">Numeri disponibili</div><div class="ship">Consegna gratuita in 3 giorni</div><div class="swatches"><span class="swatch" style="background:#2563eb"></span><span class="swatch" style="background:#c81e1e"></span></div><a class="btn" href="https://www.spartoo.it/Ucon-Acrobatics-b43754.php" target="_blank" rel="noopener noreferrer">Apri negozio</a></div></article>
+
+</main>
+
+<footer>
+  Pagina rifatta in modalità mobile. Riepilogo richiudibile. Ordinamento prezzo. Risultati mostrati subito senza pannello invasivo.
+
+  <div class="bottomshare">
+    <a class="sharebtn" href="#" id="waShareBtnBottom" aria-label="Condividi su WhatsApp">
+      <span style="font-size:20px;line-height:1">🟢</span>
+      <span>Condividi su WhatsApp<br><small>link alla pagina</small></span>
+    </a>
+    <div class="sharehint">Anteprima professionale con immagine e titolo: funziona solo se la pagina è pubblicata su un link web pubblico https, non come file locale o content://</div>
+  </div>
+</footer>
+
+<script>
+const toggle = document.getElementById('toggleInfo');
+const panel = document.getElementById('infoPanel');
+const sortBtn = document.getElementById('sortBtn');
+const grid = document.getElementById('grid');
+let desc = false;
+
+function updateToggle() {
+  const open = panel.classList.contains('open');
+  toggle.textContent = open ? 'Chiudi riepilogo' : 'Apri riepilogo';
+}
+toggle.addEventListener('click', () => {
+  panel.classList.toggle('open');
+  updateToggle();
+});
+
+sortBtn.addEventListener('click', () => {
+  const cards = [...grid.querySelectorAll('.card')];
+  cards.sort((a,b) => {
+    const pa = parseFloat(a.dataset.price);
+    const pb = parseFloat(b.dataset.price);
+    return desc ? pb - pa : pa - pb;
+  });
+  cards.forEach(c => grid.appendChild(c));
+  desc = !desc;
+  sortBtn.textContent = desc ? 'Ordine inverso' : 'Ordina: prezzo';
+});
+
+function buildShareUrl() {
+  const pageUrl = window.location.href;
+  const title = document.title || 'NOLA Bag – Italia';
+  const text = `${title}\n${pageUrl}`;
+  return `https://wa.me/?text=${encodeURIComponent(text)}`;
+}
+
+function shareHandler(e){
+  const href = window.location.href || '';
+  if (!href.startsWith('http://') && !href.startsWith('https://')) {
+    e.preventDefault();
+    alert('Il pulsante WhatsApp è stato aggiunto, ma l’anteprima con immagine e titolo cliccabili funziona solo se questa pagina è pubblicata su un link web pubblico https. Da file locale/content:// WhatsApp non può generare una preview professionale.');
+    return false;
+  }
+  e.currentTarget.href = buildShareUrl();
+}
+
+document.getElementById('waShareBtnTop').addEventListener('click', shareHandler);
+document.getElementById('waShareBtnBottom').addEventListener('click', shareHandler);
+
+updateToggle();
+</script>
+</body>
+</html>
