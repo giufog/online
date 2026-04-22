@@ -1,2 +1,3 @@
 # online
-Pagine HTML statiche pubbliche con GitHub Pages
+
+Repository lasciato vuoto e pronto per future pagine statiche pubbliche.
